@@ -1,4 +1,4 @@
-# Final Project - Part 2
+# Live README.md Presentation
 For this assignment we were required to design and develop a style tile and style prototype for our final project.
 
 ## Links
@@ -29,4 +29,4 @@ For this assignment we were required to design and develop a style tile and styl
 * I reviewed the list of deductions for this project and in the syllabus
 
 ## Comments
-* I changed the font to a more futuristic font and I added the two moons to the Tatooine logo.
+* This website is not responsive
