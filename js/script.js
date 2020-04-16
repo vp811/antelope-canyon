@@ -22,3 +22,22 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+function button_click(color) {
+     document.getElementById("header").style.backgroundColor = color;
+}
+
+var i = 0;
+var txt = 'You have found a secret!!!!! ';
+var speed = 50;
+
+function easterEgg() {
+  document.getElementById("easter-egg").src = "images/secret.gif";
+
+  if (i < txt.length) {
+    document.getElementById("more-text").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(easterEgg, speed);
+  }
+
+}

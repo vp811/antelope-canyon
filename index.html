@@ -6,18 +6,18 @@
     <meta charset="utf-8" />
 
     <!-- Stylesheet -->
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
     <link href="css/lightbox.css" type="text/css" rel="stylesheet" />
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   </head>
 
   <body id="home">
-    <header>
+    <header id="header">
       <div class="container">
         <nav>
           <ul class="top-menu">
@@ -32,13 +32,22 @@
 
     <main>
       <div class="container">
+
+        <!--<button class="sample-button" type="button" onclick="button_click('red'); easterEgg();">Switch Colors</button>-->
+
         <section class="about" id="about">
           <img class="antelope-top" src="images/antelope-canyon-top.jpg" alt="Looking up Antelope Canyon" />
+
+          <!-- <div class="more-information">
+            <h3 id="more-text"></h3>
+            <img id="easter-egg" />
+          </div> -->
 
           <h2>About Antelope Canyon</h2>
           <p>Antelope Canyon is a slot canyon in the American Southwest. It is on Navajo land east of Page, Arizona. Antelope Canyon includes two separate, scenic slot canyon sections, referred to individually as "Upper Antelope Canyon" or "The Crack"; and "Lower Antelope Canyon" or "The Corkscrew".</p>
 
           <p>The Navajo name for Upper Antelope Canyon is Tsé bighánílíní, which means 'the place where water runs through rocks'. Lower Antelope Canyon is Hazdistazí (called "Hasdestwazi" by the Navajo Parks and Recreation Department), or 'spiral rock arches'. Both are in the LeChee Chapter of the Navajo Nation. The canyons are accessible by guided tour only.</p>
+
         </section>
 
         <section class="gallery" id="gallery">
@@ -94,6 +103,14 @@
       </div>
     </main>
 
+    <footer>
+      <h2>Contact Information</h2>
+      <ul>
+        <li>Phone: 352-875-5088</li>
+        <li>Email: e.vasquez@ufl.edu</li>
+        <li>Address: Gainesville, FL </li>
+      </ul>
+    </footer>
     <!-- Javascript for Lightbox -->
     <script src="js/lightbox.js"></script>
     <script src="js/script.js"></script>

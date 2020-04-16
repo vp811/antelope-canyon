@@ -1,17 +1,25 @@
+/* relative: positioned relative to its normal position
+
+absolute: positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).*/
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
+  /* The box-sizing property allows us to include the padding and border in an element's total width and height.
+
+     Content-box:
+     The width and height properties (and min/max properties) includes only the content. Border and padding are not included
+
+     Border-box:
+     If you set box-sizing: border-box; on an element padding and border are included in the width and height.
+     */
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-body{
-  background: #333;
 }
 
 .container {
@@ -83,8 +91,8 @@ main .container {
 *
 */
 .individual-gallery-image {
-  max-width: 300px;
-  max-height: 200px;
+    max-width: 30%;
+    max-height: 200px;
 }
 
 /*
@@ -131,5 +139,30 @@ main .container {
   position: absolute;
   top: 50%;
   left: 37%;
-  transform: translate(-30%,-50%);
+  transform: translate(-37%,-50%); /* repositions an element in the horizontal and/or vertical directions.*/
+}
+
+/*
+.more-information {
+    text-align: center;
+    margin: 50px 0;
+}
+
+button.sample-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+}
+*/
+
+footer {
+    padding: 30px 60px;
+    background: #333;
+    color: white;
+    text-align: right;
+}
+
+footer ul li {
+  list-style: none;
 }
